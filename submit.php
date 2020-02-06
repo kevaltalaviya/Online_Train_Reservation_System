@@ -131,7 +131,7 @@ if ($_POST['vercode1'] != $_SESSION['vercode'] OR $_SESSION['vercode']=='')  {
 			</div>
 		</div>
 	</header>';
-		echo '<form action="payment.php" method="POST">';
+		echo '<form action="TxnTest.php" method="POST">';
 	  echo '<div class="row">';
 	  echo ' <div id="bg" class="col-sm-4" >';
 	
